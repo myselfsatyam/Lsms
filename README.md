@@ -14,4 +14,28 @@ Tech Stack:<br>
 •Authentication: Supabase Authentication<br>
 •Real-Time Data: Supabase Realtime<br>
 
+Installation:<br>
+Prerequisites:<br>
+
+Steps to Run Locally:<br>
+Clone the repository:<br>
+git clone https://github.com/myselfsatyam/Lsms.git<br>
+cd Lsms
+Install dependencies:<br>
+npm install
+<br>
+Set up Supabase:<br>
+•Go to Supabase and create a new project.
+•Create a new database schema for the library system and configure tables for books, users, and any other necessary data.
+•Set up authentication via email/password in the Supabase console.
+<br>
+In the .env file, set the necessary Supabase keys:<br>
+•VITE_SUPABASE_URL=<Your_Supabase_URL><br>
+•VITE_SUPABASE_ANON_KEY=<Your_Supabase_Anon_Key>
+<br>
+
+Run the development server:<br>
+•npm run dev<br>
+The application should now be running on http://localhost:3000.
+
 
